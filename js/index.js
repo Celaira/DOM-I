@@ -97,6 +97,9 @@ contact.innerHTML = `<h4>${siteContent['contact']['contact-h4']}</h4>\n<p>
 \n<p><a href="tel:555-555-5555">${siteContent['contact']['email']}</a></p>
 `;
 
+let footer = document.querySelector('footer > p');
+footer.textContent = `${siteContent['footer']['copyright']}`;
+
 let btnUpdate = document.createElement('button');
 
 
